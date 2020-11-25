@@ -4,6 +4,37 @@
 CMakeFiles/Segundo.dir/main.cpp.obj
  C:/Users/Acer/Documents/GitHub/OOP_lab3/untitled/main.cpp
  C:/mingw64/include/SFML/Config.hpp
+ C:/mingw64/include/SFML/Graphics.hpp
+ C:/mingw64/include/SFML/Graphics/BlendMode.hpp
+ C:/mingw64/include/SFML/Graphics/CircleShape.hpp
+ C:/mingw64/include/SFML/Graphics/Color.hpp
+ C:/mingw64/include/SFML/Graphics/ConvexShape.hpp
+ C:/mingw64/include/SFML/Graphics/Drawable.hpp
+ C:/mingw64/include/SFML/Graphics/Export.hpp
+ C:/mingw64/include/SFML/Graphics/Font.hpp
+ C:/mingw64/include/SFML/Graphics/Glsl.hpp
+ C:/mingw64/include/SFML/Graphics/Glsl.inl
+ C:/mingw64/include/SFML/Graphics/Glyph.hpp
+ C:/mingw64/include/SFML/Graphics/Image.hpp
+ C:/mingw64/include/SFML/Graphics/PrimitiveType.hpp
+ C:/mingw64/include/SFML/Graphics/Rect.hpp
+ C:/mingw64/include/SFML/Graphics/Rect.inl
+ C:/mingw64/include/SFML/Graphics/RectangleShape.hpp
+ C:/mingw64/include/SFML/Graphics/RenderStates.hpp
+ C:/mingw64/include/SFML/Graphics/RenderTarget.hpp
+ C:/mingw64/include/SFML/Graphics/RenderTexture.hpp
+ C:/mingw64/include/SFML/Graphics/RenderWindow.hpp
+ C:/mingw64/include/SFML/Graphics/Shader.hpp
+ C:/mingw64/include/SFML/Graphics/Shape.hpp
+ C:/mingw64/include/SFML/Graphics/Sprite.hpp
+ C:/mingw64/include/SFML/Graphics/Text.hpp
+ C:/mingw64/include/SFML/Graphics/Texture.hpp
+ C:/mingw64/include/SFML/Graphics/Transform.hpp
+ C:/mingw64/include/SFML/Graphics/Transformable.hpp
+ C:/mingw64/include/SFML/Graphics/Vertex.hpp
+ C:/mingw64/include/SFML/Graphics/VertexArray.hpp
+ C:/mingw64/include/SFML/Graphics/VertexBuffer.hpp
+ C:/mingw64/include/SFML/Graphics/View.hpp
  C:/mingw64/include/SFML/System.hpp
  C:/mingw64/include/SFML/System/Clock.hpp
  C:/mingw64/include/SFML/System/Err.hpp
