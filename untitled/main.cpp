@@ -28,7 +28,7 @@ public:
         figure_down.clear();
         figure_up.clear();
         int f_u_size = 0, f_d_size = 0;
-        Vertex vershina = Vertex(Vector2f(focus.position.x + p/2, focus.position.y));
+        Vertex vershina = Vertex(Vector2f(focus.position.x + p/2, focus.position.y), Color::Red);
         float current_y = focus.position.y;
         float shag = 1.0;
         while(current_y>=finish_up){
@@ -63,12 +63,6 @@ public:
     void draw(){
         win.draw(&figure_up[0], figure_up.size(), sf::Quads);
         win.draw(&figure_down[0], figure_down.size(), sf::Quads);
-
-        CircleShape foc;
-        foc = CircleShape(1);
-        foc.setPosition(focus.position);
-        foc.setFillColor(focus.color);
-        win.draw(foc);
     }
 };
 
@@ -82,19 +76,17 @@ int main() {
 */
 
     std::vector<Vertex> massiv_tochek;
+    std::vector<Parabola> massiv_parabol;
     float line_x = 0;
+    int current_of_dots = 0;
 
     massiv_tochek.emplace_back(sf::Vector2f(200, 100), sf::Color::Green);
     massiv_tochek.emplace_back(sf::Vector2f(350, 168), sf::Color::Green);
 
-    Parabola parabola1 = Parabola(massiv_tochek[0], line_x);
-    Parabola parabola2 = Parabola(massiv_tochek[1], line_x);
-    parabola1.update_figure();
-    parabola2.update_figure();
-
     int counter = 0;
 
     while (win.isOpen()) {
+        //working out all events
         sf::Event e{};
         while (win.pollEvent(e)) {
             switch (e.type) {
@@ -109,23 +101,40 @@ int main() {
             }
         }
 
-        if (line_x<=700){
-            if (!(counter%10)){
-                line_x++;
-                parabola1.set_line(line_x);
-                parabola2.set_line(line_x);
+        if (line_x<=700 && !(counter%10)){
+            line_x++;
+            for(Parabola& parab: massiv_parabol){
+                parab.set_line(line_x);
+            }
+            while(current_of_dots < massiv_tochek.size() && massiv_tochek[current_of_dots].position.x<=line_x){
+                massiv_parabol.emplace_back(massiv_tochek[current_of_dots], line_x);
+                massiv_parabol[current_of_dots].update_figure();
+                current_of_dots++;
             }
         }
         counter++;
 
+        //drawing stuff
         win.clear();
-        parabola1.draw();
-        parabola2.draw();
 
+        //drawing swip line
         Vertex line_points[2];
         line_points[0] = Vertex(sf::Vector2f(line_x, 0), sf::Color::Blue);
         line_points[1] = Vertex(sf::Vector2f(line_x, 360), sf::Color::Blue);
         win.draw(&line_points[0], 2, Lines);
+
+        //drawing all the dots given
+        for(Vertex dot: massiv_tochek){
+            CircleShape foc;
+            foc = CircleShape(1);
+            foc.setPosition(dot.position);
+            foc.setFillColor(dot.color);
+            win.draw(foc);
+        }
+
+        for(Parabola& parab: massiv_parabol){
+            parab.draw();
+        }
 
         //win.draw(message);
         win.display();
