@@ -2,6 +2,7 @@
 #include <cmath>
 #include <vector>
 #include <iostream>
+#include <typeinfo>
 using namespace sf;
 RenderWindow win(sf::VideoMode(600, 360), "Halo, ma duds !");
 
@@ -66,7 +67,8 @@ public:
     }
 };
 
-int main() {
+
+int main_Voronoi() {
     /*
     Font font;
     if (!font.loadFromFile("C:/WINDOWS/FONTS/ALGER.TTF")) {
@@ -139,5 +141,85 @@ int main() {
         //win.draw(message);
         win.display();
     }
+    return 0;
+}
+
+
+int partition(std::vector<Vertex> &a, int i, int j){
+
+    float pivot = (a[i].position.x +a[j].position.x)/2;
+    while (true) {
+        while (a[i].position.x < pivot) {
+            i += 1;
+        }
+        while (a[j].position.x > pivot) {
+            j -= 1;
+        }
+        if (i >= j) {
+            return j;
+        }
+        float buf = a[i].position.x;
+        a[i].position.x = a[j].position.x;
+        a[j].position.x = buf;
+    }
+}
+
+
+void quickSort(std::vector<Vertex> &tochki, int low, int hig){
+    if (low < hig){
+        int p = partition(tochki, low, hig);
+        quickSort(tochki, low, p);
+        quickSort(tochki, p+1, hig);
+    }
+}
+
+
+void Graham(){
+
+    std::vector<Vertex> massiv_tochek;
+    massiv_tochek.emplace_back(sf::Vector2f(200, 100), sf::Color::Green);
+    massiv_tochek.emplace_back(sf::Vector2f(350, 168), sf::Color::Green);
+    massiv_tochek.emplace_back(sf::Vector2f(250, 80), sf::Color::Green);
+    massiv_tochek.emplace_back(sf::Vector2f(400, 300), sf::Color::Green);
+
+    int len = massiv_tochek.size();
+
+    quickSort(massiv_tochek, 0, len-1);
+    for (Vertex i: massiv_tochek){
+        std::cout<< i.position.x<<' '<< i.position.y<< '\n';
+    }
+
+    Vertex left = massiv_tochek[0];
+    Vertex right = massiv_tochek[len-1];
+    Vertex main = left;
+    while (main.position != left.position){
+
+    }
+
+    while (win.isOpen()) {
+        //working out all events
+        sf::Event e{};
+        while (win.pollEvent(e)) {
+            switch (e.type) {
+                case sf::Event::EventType::Closed:
+                    win.close();
+                    break;
+                    /*
+                case sf::Event::EventType::Resized:
+                    message.setCharacterSize(int(win.getSize().x/20));
+                    break;
+                     */
+            }
+        }
+
+        //drawing stuff
+        win.clear();
+        win.display();
+    }
+}
+
+
+int main(){
+    Graham();
     return 0;
 }
