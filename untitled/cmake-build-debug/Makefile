@@ -142,6 +142,33 @@ Segundo/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Segundo.dir\build.make CMakeFiles/Segundo.dir/build
 .PHONY : Segundo/fast
 
+graham.obj: graham.cpp.obj
+
+.PHONY : graham.obj
+
+# target to build an object file
+graham.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Segundo.dir\build.make CMakeFiles/Segundo.dir/graham.cpp.obj
+.PHONY : graham.cpp.obj
+
+graham.i: graham.cpp.i
+
+.PHONY : graham.i
+
+# target to preprocess a source file
+graham.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Segundo.dir\build.make CMakeFiles/Segundo.dir/graham.cpp.i
+.PHONY : graham.cpp.i
+
+graham.s: graham.cpp.s
+
+.PHONY : graham.s
+
+# target to generate assembly for a file
+graham.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Segundo.dir\build.make CMakeFiles/Segundo.dir/graham.cpp.s
+.PHONY : graham.cpp.s
+
 main.obj: main.cpp.obj
 
 .PHONY : main.obj
@@ -169,6 +196,33 @@ main.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Segundo.dir\build.make CMakeFiles/Segundo.dir/main.cpp.s
 .PHONY : main.cpp.s
 
+voronoi.obj: voronoi.cpp.obj
+
+.PHONY : voronoi.obj
+
+# target to build an object file
+voronoi.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Segundo.dir\build.make CMakeFiles/Segundo.dir/voronoi.cpp.obj
+.PHONY : voronoi.cpp.obj
+
+voronoi.i: voronoi.cpp.i
+
+.PHONY : voronoi.i
+
+# target to preprocess a source file
+voronoi.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Segundo.dir\build.make CMakeFiles/Segundo.dir/voronoi.cpp.i
+.PHONY : voronoi.cpp.i
+
+voronoi.s: voronoi.cpp.s
+
+.PHONY : voronoi.s
+
+# target to generate assembly for a file
+voronoi.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Segundo.dir\build.make CMakeFiles/Segundo.dir/voronoi.cpp.s
+.PHONY : voronoi.cpp.s
+
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -178,9 +232,15 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... Segundo
+	@echo ... graham.obj
+	@echo ... graham.i
+	@echo ... graham.s
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s
+	@echo ... voronoi.obj
+	@echo ... voronoi.i
+	@echo ... voronoi.s
 .PHONY : help
 
 

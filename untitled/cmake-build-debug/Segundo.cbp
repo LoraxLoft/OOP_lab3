@@ -82,7 +82,22 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="C:/Users/Acer/Documents/GitHub/OOP_lab3/untitled/Algo.h">
+			<Option target="Segundo"/>
+		</Unit>
+		<Unit filename="C:/Users/Acer/Documents/GitHub/OOP_lab3/untitled/geometry.h">
+			<Option target="Segundo"/>
+		</Unit>
+		<Unit filename="C:/Users/Acer/Documents/GitHub/OOP_lab3/untitled/graham.cpp">
+			<Option target="Segundo"/>
+		</Unit>
 		<Unit filename="C:/Users/Acer/Documents/GitHub/OOP_lab3/untitled/main.cpp">
+			<Option target="Segundo"/>
+		</Unit>
+		<Unit filename="C:/Users/Acer/Documents/GitHub/OOP_lab3/untitled/sort.h">
+			<Option target="Segundo"/>
+		</Unit>
+		<Unit filename="C:/Users/Acer/Documents/GitHub/OOP_lab3/untitled/voronoi.cpp">
 			<Option target="Segundo"/>
 		</Unit>
 		<Unit filename="C:/Users/Acer/Documents/GitHub/OOP_lab3/untitled/CMakeLists.txt">
