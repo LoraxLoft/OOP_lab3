@@ -12,7 +12,6 @@ public:
     std::vector<Edge> tochki;
     std::vector<Frame> to_draw;
     int to_draw_size = 0;
-    std::vector<Segment> linear_shell;
     int len;
     clock_t curr_time = 0;
     int item_to_show = 0;

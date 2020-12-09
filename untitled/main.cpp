@@ -3,8 +3,9 @@
 #include <string>
 #include "geometry.h"
 #include "jarvis.h"
+#include "graham.h"
 using namespace sf;
-RenderWindow win(sf::VideoMode(600, 360), "Halo, ma duds !");
+RenderWindow win(sf::VideoMode(1000, 600), "Halo, ma duds !");
 String win_state = "Menu";
 
 
@@ -53,6 +54,10 @@ int main(){
     massiv_tochek.emplace_back(Vector2f(500, 80));
     massiv_tochek.emplace_back(Vector2f(400, 200));
     massiv_tochek.emplace_back(Vector2f(415, 300));
+    massiv_tochek.emplace_back(Vector2f(550, 360));
+    massiv_tochek.emplace_back(Vector2f(220, 440));
+    massiv_tochek.emplace_back(Vector2f(300, 330));
+    massiv_tochek.emplace_back(Vector2f(50, 60));
 
     Menu menu = Menu(240, 80);
     Algorythm *algorythm;
@@ -73,6 +78,8 @@ int main(){
                             case 1:
                                 algorythm = new Jarvis(massiv_tochek);
                                 break;
+                            case 2:
+                                algorythm = new Graham(massiv_tochek, Vertex(Vector2f(220, 180)));
                         }
                         algorythm->algo();
                     }

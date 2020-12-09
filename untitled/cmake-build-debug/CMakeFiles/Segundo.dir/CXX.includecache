@@ -24,6 +24,20 @@ vector
 iostream
 -
 
+C:/Users/Acer/Documents/GitHub/OOP_lab3/untitled/graham.h
+cmath
+-
+string
+-
+geometry.h
+C:/Users/Acer/Documents/GitHub/OOP_lab3/untitled/geometry.h
+algo.h
+C:/Users/Acer/Documents/GitHub/OOP_lab3/untitled/algo.h
+frame.h
+C:/Users/Acer/Documents/GitHub/OOP_lab3/untitled/frame.h
+sort.h
+C:/Users/Acer/Documents/GitHub/OOP_lab3/untitled/sort.h
+
 C:/Users/Acer/Documents/GitHub/OOP_lab3/untitled/jarvis.h
 SFML/Graphics.hpp
 -
@@ -49,6 +63,8 @@ geometry.h
 C:/Users/Acer/Documents/GitHub/OOP_lab3/untitled/geometry.h
 jarvis.h
 C:/Users/Acer/Documents/GitHub/OOP_lab3/untitled/jarvis.h
+graham.h
+C:/Users/Acer/Documents/GitHub/OOP_lab3/untitled/graham.h
 
 C:/Users/Acer/Documents/GitHub/OOP_lab3/untitled/sort.h
 SFML/Graphics.hpp

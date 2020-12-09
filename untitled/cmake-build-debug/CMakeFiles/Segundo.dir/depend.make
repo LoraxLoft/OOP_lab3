@@ -4,6 +4,7 @@
 CMakeFiles/Segundo.dir/main.cpp.obj: ../algo.h
 CMakeFiles/Segundo.dir/main.cpp.obj: ../frame.h
 CMakeFiles/Segundo.dir/main.cpp.obj: ../geometry.h
+CMakeFiles/Segundo.dir/main.cpp.obj: ../graham.h
 CMakeFiles/Segundo.dir/main.cpp.obj: ../jarvis.h
 CMakeFiles/Segundo.dir/main.cpp.obj: ../main.cpp
 CMakeFiles/Segundo.dir/main.cpp.obj: ../sort.h
