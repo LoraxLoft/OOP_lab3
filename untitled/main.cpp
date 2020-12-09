@@ -2,7 +2,7 @@
 #include <vector>
 #include <string>
 #include "geometry.h"
-#include "graham.cpp"
+#include "jarvis.h"
 using namespace sf;
 RenderWindow win(sf::VideoMode(600, 360), "Halo, ma duds !");
 String win_state = "Menu";
@@ -54,36 +54,39 @@ int main(){
     massiv_tochek.emplace_back(Vector2f(400, 200));
     massiv_tochek.emplace_back(Vector2f(415, 300));
 
-    Menu menu = Menu(0, 0);
-    Algorythm algorythm;
+    Menu menu = Menu(240, 80);
+    Algorythm *algorythm;
 
     while (win.isOpen()) {
         //working out all events
         sf::Event e{};
         while (win.pollEvent(e)) {
             if (e.type == Event::EventType::Closed) {
-                    win.close();
+                win.close();
             }
-            if (win_state == "Menu"){
+            if (win_state == "Menu") {
                 if (e.type == Event::EventType::MouseButtonPressed) {
                     int algo = menu.testClick(e.mouseButton.x, e.mouseButton.y);
-                    if (algo){
-                        win_state = "Algorythm";
-                        switch(algo){
+                    if (algo) {
+                        win_state = "Algo";
+                        switch (algo) {
                             case 1:
-                                algorythm = Graham_Math(massiv_tochek);
+                                algorythm = new Jarvis(massiv_tochek);
                                 break;
                         }
-                        algorythm.algo();
+                        algorythm->algo();
                     }
                 }
             }
-
+        }
         //drawing stuff
         win.clear();
-        menu.draw(win);
-        win.display();
+        if (win_state == "Menu"){
+            menu.draw(win);
+        } else if (win_state == "Algo") {
+            algorythm->draw(win);
         }
+        win.display();
     }
     return 0;
 }

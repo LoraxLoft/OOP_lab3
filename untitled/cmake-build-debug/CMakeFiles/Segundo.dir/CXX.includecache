@@ -6,7 +6,15 @@
 
 #IncludeRegexTransform: 
 
-C:/Users/Acer/Documents/GitHub/OOP_lab3/untitled/main.cpp
+C:/Users/Acer/Documents/GitHub/OOP_lab3/untitled/algo.h
+
+C:/Users/Acer/Documents/GitHub/OOP_lab3/untitled/frame.h
+vector
+-
+geometry.h
+C:/Users/Acer/Documents/GitHub/OOP_lab3/untitled/geometry.h
+
+C:/Users/Acer/Documents/GitHub/OOP_lab3/untitled/geometry.h
 SFML/Graphics.hpp
 -
 cmath
@@ -15,7 +23,37 @@ vector
 -
 iostream
 -
-typeinfo
+
+C:/Users/Acer/Documents/GitHub/OOP_lab3/untitled/jarvis.h
+SFML/Graphics.hpp
+-
+vector
+-
+geometry.h
+C:/Users/Acer/Documents/GitHub/OOP_lab3/untitled/geometry.h
+sort.h
+C:/Users/Acer/Documents/GitHub/OOP_lab3/untitled/sort.h
+algo.h
+C:/Users/Acer/Documents/GitHub/OOP_lab3/untitled/algo.h
+frame.h
+C:/Users/Acer/Documents/GitHub/OOP_lab3/untitled/frame.h
+
+C:/Users/Acer/Documents/GitHub/OOP_lab3/untitled/main.cpp
+SFML/Graphics.hpp
+-
+vector
+-
+string
+-
+geometry.h
+C:/Users/Acer/Documents/GitHub/OOP_lab3/untitled/geometry.h
+jarvis.h
+C:/Users/Acer/Documents/GitHub/OOP_lab3/untitled/jarvis.h
+
+C:/Users/Acer/Documents/GitHub/OOP_lab3/untitled/sort.h
+SFML/Graphics.hpp
+-
+vector
 -
 
 C:/mingw64/include/SFML/Config.hpp

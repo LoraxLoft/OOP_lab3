@@ -4,9 +4,7 @@
 class Algorythm{
 public:
     virtual void algo(){}
+    virtual void draw(RenderWindow& win){}
 };
-
-
-
 
 #endif //SEGUNDO_ALGO_H

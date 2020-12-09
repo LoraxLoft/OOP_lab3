@@ -82,13 +82,19 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="C:/Users/Acer/Documents/GitHub/OOP_lab3/untitled/Algo.h">
+		<Unit filename="C:/Users/Acer/Documents/GitHub/OOP_lab3/untitled/algo.h">
+			<Option target="Segundo"/>
+		</Unit>
+		<Unit filename="C:/Users/Acer/Documents/GitHub/OOP_lab3/untitled/frame.h">
 			<Option target="Segundo"/>
 		</Unit>
 		<Unit filename="C:/Users/Acer/Documents/GitHub/OOP_lab3/untitled/geometry.h">
 			<Option target="Segundo"/>
 		</Unit>
-		<Unit filename="C:/Users/Acer/Documents/GitHub/OOP_lab3/untitled/graham.cpp">
+		<Unit filename="C:/Users/Acer/Documents/GitHub/OOP_lab3/untitled/graham.h">
+			<Option target="Segundo"/>
+		</Unit>
+		<Unit filename="C:/Users/Acer/Documents/GitHub/OOP_lab3/untitled/jarvis.h">
 			<Option target="Segundo"/>
 		</Unit>
 		<Unit filename="C:/Users/Acer/Documents/GitHub/OOP_lab3/untitled/main.cpp">

@@ -25,7 +25,6 @@ int partition(std::vector<Vertex> &a, int i, int j){
     }
 }
 
-
 void quickSort(std::vector<Vertex> &tochki, int low, int hig){
     if (low < hig){
         int p = partition(tochki, low, hig);
