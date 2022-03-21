@@ -1,6 +1,5 @@
 file(REMOVE_RECURSE
   "CMakeFiles/Segundo.dir/main.cpp.obj"
-  "CMakeFiles/Segundo.dir/voronoi.cpp.obj"
   "Segundo.exe"
   "Segundo.exe.manifest"
   "Segundo.pdb"

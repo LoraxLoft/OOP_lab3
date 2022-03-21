@@ -169,33 +169,6 @@ main.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Segundo.dir\build.make CMakeFiles/Segundo.dir/main.cpp.s
 .PHONY : main.cpp.s
 
-voronoi.obj: voronoi.cpp.obj
-
-.PHONY : voronoi.obj
-
-# target to build an object file
-voronoi.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Segundo.dir\build.make CMakeFiles/Segundo.dir/voronoi.cpp.obj
-.PHONY : voronoi.cpp.obj
-
-voronoi.i: voronoi.cpp.i
-
-.PHONY : voronoi.i
-
-# target to preprocess a source file
-voronoi.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Segundo.dir\build.make CMakeFiles/Segundo.dir/voronoi.cpp.i
-.PHONY : voronoi.cpp.i
-
-voronoi.s: voronoi.cpp.s
-
-.PHONY : voronoi.s
-
-# target to generate assembly for a file
-voronoi.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Segundo.dir\build.make CMakeFiles/Segundo.dir/voronoi.cpp.s
-.PHONY : voronoi.cpp.s
-
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -208,9 +181,6 @@ help:
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s
-	@echo ... voronoi.obj
-	@echo ... voronoi.i
-	@echo ... voronoi.s
 .PHONY : help
 
 

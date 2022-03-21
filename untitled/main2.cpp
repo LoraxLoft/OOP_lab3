@@ -5,6 +5,8 @@
 
 using namespace sf;
 
+RenderWindow win(sf::VideoMode(1000, 600), "Halo, ma duds !");
+
 class Parabola{
 public:
     Vertex focus;
@@ -67,7 +69,7 @@ public:
 };
 
 
-int main_Voronoi(sf::RenderWindow &win) {
+int main_1() {
     /*
     Font font;
     if (!font.loadFromFile("C:/WINDOWS/FONTS/ALGER.TTF")) {

@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true">
+    <generated />
+  </component>
+  <component name="CMakeSettings">
+    <configurations>
+      <configuration PROFILE_NAME="Debug" CONFIG_NAME="Debug" />
+    </configurations>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="bd62b8b0-ee2e-4e72-83da-fd86801bdb05" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/untitled/.idea/.name" beforeDir="false" afterPath="$PROJECT_DIR$/untitled/.idea/.name" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/untitled/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/untitled/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/untitled/cmake-build-debug/CMakeFiles/Makefile2" beforeDir="false" afterPath="$PROJECT_DIR$/untitled/cmake-build-debug/CMakeFiles/Makefile2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/untitled/cmake-build-debug/CMakeFiles/Segundo.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/untitled/cmake-build-debug/CMakeFiles/Segundo.dir/DependInfo.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/untitled/cmake-build-debug/CMakeFiles/Segundo.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/untitled/cmake-build-debug/CMakeFiles/Segundo.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/untitled/cmake-build-debug/CMakeFiles/Segundo.dir/cmake_clean.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/untitled/cmake-build-debug/CMakeFiles/Segundo.dir/cmake_clean.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/untitled/cmake-build-debug/CMakeFiles/Segundo.dir/depend.internal" beforeDir="false" afterPath="$PROJECT_DIR$/untitled/cmake-build-debug/CMakeFiles/Segundo.dir/depend.internal" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/untitled/cmake-build-debug/CMakeFiles/Segundo.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/untitled/cmake-build-debug/CMakeFiles/Segundo.dir/depend.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/untitled/cmake-build-debug/CMakeFiles/Segundo.dir/objects1.rsp" beforeDir="false" afterPath="$PROJECT_DIR$/untitled/cmake-build-debug/CMakeFiles/Segundo.dir/objects1.rsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/untitled/cmake-build-debug/CMakeFiles/Segundo.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/untitled/cmake-build-debug/CMakeFiles/Segundo.dir/progress.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/untitled/cmake-build-debug/CMakeFiles/progress.marks" beforeDir="false" afterPath="$PROJECT_DIR$/untitled/cmake-build-debug/CMakeFiles/progress.marks" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/untitled/cmake-build-debug/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/untitled/cmake-build-debug/Makefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/untitled/cmake-build-debug/Segundo.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/untitled/cmake-build-debug/Segundo.cbp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/untitled/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/untitled/main.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/untitled/voronoi.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/untitled/main2.cpp" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ClangdSettings">
+    <option name="formatViaClangd" value="false" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1kgkh2UW1PyY7NQorbNg1BMhfy2" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="cf.first.check.clang-format" value="false" />
+    <property name="last_opened_file_path" value="D:/CPP/dictionary" />
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="bd62b8b0-ee2e-4e72-83da-fd86801bdb05" name="Default Changelist" comment="" />
+      <created>1606129740230</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1606129740230</updated>
+      <workItem from="1606129745127" duration="140000" />
+      <workItem from="1606402416001" duration="25000" />
+      <workItem from="1644528150451" duration="131000" />
+      <workItem from="1644528370310" duration="18000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="549" y="167" key="FileChooserDialogImpl" timestamp="1644528386409">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="549" y="167" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1644528386409" />
+  </component>
+</project>

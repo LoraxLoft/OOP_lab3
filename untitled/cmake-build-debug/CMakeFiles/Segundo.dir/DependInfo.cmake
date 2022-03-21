@@ -5,7 +5,6 @@ set(CMAKE_DEPENDS_LANGUAGES
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
   "C:/Users/Acer/Documents/GitHub/OOP_lab3/untitled/main.cpp" "C:/Users/Acer/Documents/GitHub/OOP_lab3/untitled/cmake-build-debug/CMakeFiles/Segundo.dir/main.cpp.obj"
-  "C:/Users/Acer/Documents/GitHub/OOP_lab3/untitled/voronoi.cpp" "C:/Users/Acer/Documents/GitHub/OOP_lab3/untitled/cmake-build-debug/CMakeFiles/Segundo.dir/voronoi.cpp.obj"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
